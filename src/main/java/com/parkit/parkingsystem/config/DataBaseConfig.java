@@ -32,7 +32,7 @@ public class DataBaseConfig {
   /**
    * Close connection.
    *
-   * @param con the con
+   * @param con the connection
    */
   public void closeConnection(Connection con) {
     if (con != null) {
@@ -48,7 +48,7 @@ public class DataBaseConfig {
   /**
    * Close prepared statement.
    *
-   * @param ps the ps
+   * @param ps the prepared statement
    */
   public void closePreparedStatement(PreparedStatement ps) {
     if (ps != null) {
@@ -64,7 +64,7 @@ public class DataBaseConfig {
   /**
    * Close result set.
    *
-   * @param rs the rs
+   * @param rs the result set
    */
   public void closeResultSet(ResultSet rs) {
     if (rs != null) {
